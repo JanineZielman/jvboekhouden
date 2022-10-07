@@ -1,0 +1,75 @@
+{
+  "id": "tekst_dubbele_afbeelding",
+  "type": "SharedSlice",
+  "name": "TekstDubbeleAfbeelding",
+  "description": "TekstDubbeleAfbeelding",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "TekstDubbeleAfbeelding",
+      "primary": {
+        "titel": {
+          "type": "Text",
+          "config": {
+            "label": "Titel",
+            "placeholder": ""
+          }
+        },
+        "tekst": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Tekst",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,strong,em,list-item,o-list-item,hyperlink"
+          }
+        },
+        "link_label": {
+          "type": "Text",
+          "config": {
+            "label": "Link Label",
+            "placeholder": ""
+          }
+        },
+        "link": {
+          "type": "Link",
+          "config": {
+            "label": "Link",
+            "placeholder": "",
+            "select": null
+          }
+        },
+        "gele_achtergrond": {
+          "type": "Boolean",
+          "config": {
+            "label": "Gele Achtergrond",
+            "default_value": false,
+            "placeholder_true": "true",
+            "placeholder_false": "false"
+          }
+        },
+        "afbeelding1": {
+          "type": "Image",
+          "config": {
+            "label": "Afbeelding1",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "afbeelding2": {
+          "type": "Image",
+          "config": {
+            "label": "Afbeelding2",
+            "constraint": {},
+            "thumbnails": []
+          }
+        }
+      },
+      "items": {},
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    }
+  ]
+}

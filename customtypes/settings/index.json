@@ -1,0 +1,48 @@
+{
+  "id": "settings",
+  "label": "Settings",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "logo": {
+        "type": "Image",
+        "config": {
+          "label": "Logo",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "titel": {
+        "type": "Text",
+        "config": {
+          "label": "Titel",
+          "placeholder": ""
+        }
+      },
+      "omschrijving": {
+        "type": "Text",
+        "config": {
+          "label": "Omschrijving",
+          "placeholder": ""
+        }
+      },
+      "keywords": {
+        "type": "Text",
+        "config": {
+          "label": "Keywords",
+          "placeholder": ""
+        }
+      },
+      "footer": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Footer",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "multi": "paragraph,strong,em"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "id": "page",
+  "label": "Page",
+  "repeatable": true,
+  "status": true,
+  "json": {
+    "Main": {
+      "uid": {
+        "type": "UID",
+        "config": {
+          "label": "UID",
+          "placeholder": ""
+        }
+      },
+      "titel": {
+        "type": "Text",
+        "config": {
+          "label": "Titel",
+          "placeholder": ""
+        }
+      },
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "aanbod": {
+              "type": "SharedSlice"
+            },
+            "afbeelding_tekst": {
+              "type": "SharedSlice"
+            },
+            "inspiratie": {
+              "type": "SharedSlice"
+            },
+            "kolommen": {
+              "type": "SharedSlice"
+            },
+            "quote": {
+              "type": "SharedSlice"
+            },
+            "tekst": {
+              "type": "SharedSlice"
+            },
+            "tekst_dubbele_afbeelding": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    }
+  }
+}

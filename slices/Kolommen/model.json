@@ -1,0 +1,67 @@
+{
+  "id": "kolommen",
+  "type": "SharedSlice",
+  "name": "Kolommen",
+  "description": "Kolommen",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Kolommen",
+      "primary": {
+        "afbeelding": {
+          "type": "Image",
+          "config": {
+            "label": "Afbeelding",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "titel": {
+          "type": "Text",
+          "config": {
+            "label": "Titel",
+            "placeholder": ""
+          }
+        },
+        "kolom1": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Kolom1",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,strong,em,list-item,o-list-item,hyperlink"
+          }
+        },
+        "kolom2": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Kolom2",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,strong,em,list-item,o-list-item,hyperlink"
+          }
+        },
+        "link_label": {
+          "type": "Text",
+          "config": {
+            "label": "Link Label",
+            "placeholder": ""
+          }
+        },
+        "link": {
+          "type": "Link",
+          "config": {
+            "label": "Link",
+            "placeholder": "",
+            "select": null
+          }
+        }
+      },
+      "items": {},
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    }
+  ]
+}

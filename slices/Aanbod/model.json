@@ -1,0 +1,64 @@
+{
+  "id": "aanbod",
+  "type": "SharedSlice",
+  "name": "Aanbod",
+  "description": "Aanbod",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Aanbod",
+      "primary": {
+        "titel": {
+          "type": "Text",
+          "config": {
+            "label": "Titel",
+            "placeholder": ""
+          }
+        }
+      },
+      "items": {
+        "afbeelding": {
+          "type": "Image",
+          "config": {
+            "label": "Afbeelding",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "titel": {
+          "type": "Text",
+          "config": {
+            "label": "Titel",
+            "placeholder": ""
+          }
+        },
+        "onder_titel": {
+          "type": "Text",
+          "config": {
+            "label": "Onder Titel",
+            "placeholder": ""
+          }
+        },
+        "link_label": {
+          "type": "Text",
+          "config": {
+            "label": "Link Label",
+            "placeholder": ""
+          }
+        },
+        "link": {
+          "type": "Link",
+          "config": {
+            "label": "Link",
+            "placeholder": "",
+            "select": null
+          }
+        }
+      },
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    }
+  ]
+}

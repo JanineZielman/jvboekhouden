@@ -1,0 +1,19 @@
+[
+  {
+    "variation": "default",
+    "version": "sktwi1xtmkfgx8626",
+    "items": [
+      {}
+    ],
+    "primary": {
+      "quote": [
+        {
+          "type": "heading3",
+          "text": "Mostly",
+          "spans": []
+        }
+      ]
+    },
+    "slice_type": "quote"
+  }
+]

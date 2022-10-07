@@ -1,0 +1,793 @@
+{
+  "slices": {
+    "components": {
+      "aanbod": {
+        "library": "slices",
+        "id": "aanbod",
+        "name": "Aanbod",
+        "description": "Aanbod",
+        "model": {
+          "id": "aanbod",
+          "type": "SharedSlice",
+          "name": "Aanbod",
+          "description": "Aanbod",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Aanbod",
+              "primary": {
+                "titel": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Titel",
+                    "placeholder": ""
+                  }
+                }
+              },
+              "items": {
+                "afbeelding": {
+                  "type": "Image",
+                  "config": {
+                    "label": "Afbeelding",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                },
+                "titel": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Titel",
+                    "placeholder": ""
+                  }
+                },
+                "onder_titel": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Onder Titel",
+                    "placeholder": ""
+                  }
+                },
+                "link_label": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Link Label",
+                    "placeholder": ""
+                  }
+                },
+                "link": {
+                  "type": "Link",
+                  "config": {
+                    "label": "Link",
+                    "placeholder": "",
+                    "select": null
+                  }
+                }
+              },
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "version": "sktwi1xtmkfgx8626",
+            "items": [
+              {
+                "afbeelding": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1593642532973-d31b6557fa68"
+                },
+                "titel": "thought",
+                "onder_titel": "reason",
+                "link_label": "pay",
+                "link": {
+                  "link_type": "Web",
+                  "url": "https://prismic.io"
+                }
+              }
+            ],
+            "primary": {
+              "titel": "fort"
+            },
+            "slice_type": "aanbod"
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "/Users/janinezielman/Documents/Sites/Prismic/jv-boekhouden/slices/Aanbod/default/preview.png",
+            "width": 2682,
+            "height": 1322
+          }
+        }
+      },
+      "afbeelding_tekst": {
+        "library": "slices",
+        "id": "afbeelding_tekst",
+        "name": "AfbeeldingTekst",
+        "description": "AfbeeldingTekst",
+        "model": {
+          "id": "afbeelding_tekst",
+          "type": "SharedSlice",
+          "name": "AfbeeldingTekst",
+          "description": "AfbeeldingTekst",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "AfbeeldingTekst",
+              "primary": {
+                "afbeelding": {
+                  "type": "Image",
+                  "config": {
+                    "label": "Afbeelding",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                },
+                "titel": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Titel",
+                    "placeholder": ""
+                  }
+                },
+                "tekst": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Tekst",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "multi": "paragraph,strong,em,list-item,o-list-item,hyperlink"
+                  }
+                },
+                "link_label": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Link Label",
+                    "placeholder": ""
+                  }
+                },
+                "link": {
+                  "type": "Link",
+                  "config": {
+                    "label": "Link",
+                    "placeholder": "",
+                    "select": null
+                  }
+                },
+                "gele_achtergrond": {
+                  "type": "Boolean",
+                  "config": {
+                    "label": "Gele Achtergrond",
+                    "default_value": false,
+                    "placeholder_true": "true",
+                    "placeholder_false": "false"
+                  }
+                },
+                "offset": {
+                  "type": "Boolean",
+                  "config": {
+                    "label": "Offset",
+                    "default_value": false,
+                    "placeholder_true": "true",
+                    "placeholder_false": "false"
+                  }
+                },
+                "overflow": {
+                  "type": "Boolean",
+                  "config": {
+                    "label": "Overflow",
+                    "default_value": false,
+                    "placeholder_true": "true",
+                    "placeholder_false": "false"
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "version": "sktwi1xtmkfgx8626",
+            "items": [
+              {}
+            ],
+            "primary": {
+              "afbeelding": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": null,
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1515378960530-7c0da6231fb1"
+              },
+              "titel": "solar",
+              "tekst": [
+                {
+                  "type": "paragraph",
+                  "text": "Qui eiusmod consectetur et ex id ex anim voluptate eu proident tempor dolore. Dolore aute culpa eu deserunt aliquip proident incididunt labore tempor tempor ea esse exercitation.",
+                  "spans": []
+                }
+              ],
+              "link_label": "earth",
+              "link": {
+                "link_type": "Web",
+                "url": "https://slicemachine.dev"
+              },
+              "gele_achtergrond": true,
+              "offset": true,
+              "overflow": false
+            },
+            "slice_type": "afbeelding_tekst"
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "/Users/janinezielman/Documents/Sites/Prismic/jv-boekhouden/slices/AfbeeldingTekst/default/preview.png",
+            "width": 3176,
+            "height": 1752
+          }
+        }
+      },
+      "inspiratie": {
+        "library": "slices",
+        "id": "inspiratie",
+        "name": "Inspiratie",
+        "description": "Inspiratie",
+        "model": {
+          "id": "inspiratie",
+          "type": "SharedSlice",
+          "name": "Inspiratie",
+          "description": "Inspiratie",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Inspiratie",
+              "primary": {
+                "titel": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Titel",
+                    "placeholder": ""
+                  }
+                }
+              },
+              "items": {
+                "afbeelding": {
+                  "type": "Image",
+                  "config": {
+                    "label": "Afbeelding",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                },
+                "titel": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Titel",
+                    "placeholder": ""
+                  }
+                },
+                "link_label": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Link Label",
+                    "placeholder": ""
+                  }
+                },
+                "link": {
+                  "type": "Link",
+                  "config": {
+                    "label": "Link",
+                    "placeholder": "",
+                    "select": null
+                  }
+                }
+              },
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "version": "sktwi1xtmkfgx8626",
+            "items": [
+              {
+                "afbeelding": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef"
+                },
+                "titel": "cutting",
+                "link_label": "lie",
+                "link": {
+                  "link_type": "Web",
+                  "url": "http://twitter.com"
+                }
+              }
+            ],
+            "primary": {
+              "titel": "first"
+            },
+            "slice_type": "inspiratie"
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "/Users/janinezielman/Documents/Sites/Prismic/jv-boekhouden/slices/Inspiratie/default/preview.png",
+            "width": 2676,
+            "height": 1650
+          }
+        }
+      },
+      "kolommen": {
+        "library": "slices",
+        "id": "kolommen",
+        "name": "Kolommen",
+        "description": "Kolommen",
+        "model": {
+          "id": "kolommen",
+          "type": "SharedSlice",
+          "name": "Kolommen",
+          "description": "Kolommen",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Kolommen",
+              "primary": {
+                "afbeelding": {
+                  "type": "Image",
+                  "config": {
+                    "label": "Afbeelding",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                },
+                "titel": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Titel",
+                    "placeholder": ""
+                  }
+                },
+                "kolom1": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Kolom1",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "multi": "paragraph,strong,em,list-item,o-list-item,hyperlink"
+                  }
+                },
+                "kolom2": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Kolom2",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "multi": "paragraph,strong,em,list-item,o-list-item,hyperlink"
+                  }
+                },
+                "link_label": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Link Label",
+                    "placeholder": ""
+                  }
+                },
+                "link": {
+                  "type": "Link",
+                  "config": {
+                    "label": "Link",
+                    "placeholder": "",
+                    "select": null
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "version": "sktwi1xtmkfgx8626",
+            "items": [
+              {}
+            ],
+            "primary": {
+              "afbeelding": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": null,
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1589321599763-d66926c29613"
+              },
+              "titel": "there",
+              "kolom1": [
+                {
+                  "type": "paragraph",
+                  "text": "Incididunt proident amet fugiat anim occaecat esse magna.",
+                  "spans": []
+                }
+              ],
+              "kolom2": [
+                {
+                  "type": "paragraph",
+                  "text": "Enim labore magna eu id. Deserunt labore laborum occaecat ipsum. Occaecat anim consequat occaecat cillum cupidatat pariatur tempor velit voluptate esse officia sit.",
+                  "spans": []
+                }
+              ],
+              "link_label": "real",
+              "link": {
+                "link_type": "Web",
+                "url": "http://twitter.com"
+              }
+            },
+            "slice_type": "kolommen"
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "/Users/janinezielman/Documents/Sites/Prismic/jv-boekhouden/slices/Kolommen/default/preview.png",
+            "width": 3030,
+            "height": 1788
+          }
+        }
+      },
+      "quote": {
+        "library": "slices",
+        "id": "quote",
+        "name": "Quote",
+        "description": "Quote",
+        "model": {
+          "id": "quote",
+          "type": "SharedSlice",
+          "name": "Quote",
+          "description": "Quote",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Quote",
+              "primary": {
+                "quote": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Quote",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "strong,em,heading3"
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "version": "sktwi1xtmkfgx8626",
+            "items": [
+              {}
+            ],
+            "primary": {
+              "quote": [
+                {
+                  "type": "heading3",
+                  "text": "Mostly",
+                  "spans": []
+                }
+              ]
+            },
+            "slice_type": "quote"
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "/Users/janinezielman/Documents/Sites/Prismic/jv-boekhouden/slices/Quote/default/preview.png",
+            "width": 2636,
+            "height": 592
+          }
+        }
+      },
+      "tekst": {
+        "library": "slices",
+        "id": "tekst",
+        "name": "Tekst",
+        "description": "Tekst",
+        "model": {
+          "id": "tekst",
+          "type": "SharedSlice",
+          "name": "Tekst",
+          "description": "Tekst",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Tekst",
+              "primary": {
+                "afbeelding": {
+                  "type": "Image",
+                  "config": {
+                    "label": "Afbeelding",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                },
+                "titel": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Titel",
+                    "placeholder": ""
+                  }
+                },
+                "tekst": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Tekst",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "multi": "paragraph,strong,em,list-item,o-list-item,hyperlink"
+                  }
+                },
+                "link_label": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Link Label",
+                    "placeholder": ""
+                  }
+                },
+                "link": {
+                  "type": "Link",
+                  "config": {
+                    "label": "Link",
+                    "placeholder": "",
+                    "select": null
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "version": "sktwi1xtmkfgx8626",
+            "items": [
+              {}
+            ],
+            "primary": {
+              "afbeelding": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": null,
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1600804931749-2da4ce26c869"
+              },
+              "titel": "comfortable",
+              "tekst": [
+                {
+                  "type": "paragraph",
+                  "text": "Consequat ex nulla dolor magna Lorem dolor id. Sunt voluptate veniam deserunt irure pariatur ipsum occaecat ex velit nisi deserunt aliquip amet. Laboris do qui adipisicing quis.",
+                  "spans": []
+                }
+              ],
+              "link_label": "disappear",
+              "link": {
+                "link_type": "Web",
+                "url": "http://google.com"
+              }
+            },
+            "slice_type": "tekst"
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "/Users/janinezielman/Documents/Sites/Prismic/jv-boekhouden/slices/Tekst/default/preview.png",
+            "width": 2752,
+            "height": 1438
+          }
+        }
+      },
+      "tekst_dubbele_afbeelding": {
+        "library": "slices",
+        "id": "tekst_dubbele_afbeelding",
+        "name": "TekstDubbeleAfbeelding",
+        "description": "TekstDubbeleAfbeelding",
+        "model": {
+          "id": "tekst_dubbele_afbeelding",
+          "type": "SharedSlice",
+          "name": "TekstDubbeleAfbeelding",
+          "description": "TekstDubbeleAfbeelding",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "TekstDubbeleAfbeelding",
+              "primary": {
+                "titel": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Titel",
+                    "placeholder": ""
+                  }
+                },
+                "tekst": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Tekst",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "multi": "paragraph,strong,em,list-item,o-list-item,hyperlink"
+                  }
+                },
+                "link_label": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Link Label",
+                    "placeholder": ""
+                  }
+                },
+                "link": {
+                  "type": "Link",
+                  "config": {
+                    "label": "Link",
+                    "placeholder": "",
+                    "select": null
+                  }
+                },
+                "gele_achtergrond": {
+                  "type": "Boolean",
+                  "config": {
+                    "label": "Gele Achtergrond",
+                    "default_value": false,
+                    "placeholder_true": "true",
+                    "placeholder_false": "false"
+                  }
+                },
+                "afbeelding1": {
+                  "type": "Image",
+                  "config": {
+                    "label": "Afbeelding1",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                },
+                "afbeelding2": {
+                  "type": "Image",
+                  "config": {
+                    "label": "Afbeelding2",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "version": "sktwi1xtmkfgx8626",
+            "items": [
+              {}
+            ],
+            "primary": {
+              "titel": "these",
+              "tekst": [
+                {
+                  "type": "paragraph",
+                  "text": "Eiusmod deserunt culpa aute sint voluptate sit Lorem laboris consequat incididunt excepteur duis irure. Ex adipisicing fugiat minim ut. Adipisicing exercitation ullamco enim id esse nostrud voluptate ullamco.",
+                  "spans": []
+                }
+              ],
+              "link_label": "pocket",
+              "link": {
+                "link_type": "Web",
+                "url": "http://google.com"
+              },
+              "gele_achtergrond": false,
+              "afbeelding1": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": null,
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1576662712957-9c79ae1280f8"
+              },
+              "afbeelding2": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": null,
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2"
+              }
+            },
+            "slice_type": "tekst_dubbele_afbeelding"
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "/Users/janinezielman/Documents/Sites/Prismic/jv-boekhouden/slices/TekstDubbeleAfbeelding/default/preview.png",
+            "width": 3168,
+            "height": 1450
+          }
+        }
+      }
+    }
+  }
+}
