@@ -17,6 +17,23 @@ export default function Document() {
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"/>
         <meta name="msapplication-TileColor" content="#00aba9"/>
         <meta name="theme-color" content="#ffffff"/>
+
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-63V9SSGDYE"
+        />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-63V9SSGDYE', { page_path: window.location.pathname });
+            `,
+          }}
+        />
+
+        
       </Head>
       <body className="overflow-x-hidden antialiased">
         <Main />
