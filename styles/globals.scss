@@ -252,6 +252,7 @@ section {
 		z-index: 1;
 		background-color: $secondary;
 		padding: 10px 20px;
+		border-radius: 50px;
 		transition: opacity 0.3s ease-in-out;
 		&:hover{
 			opacity: 0.5;
