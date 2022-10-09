@@ -325,6 +325,17 @@ footer{
 }
 
 .kolommen{
+	.column{
+		margin-top: 14px;
+		background-color: rgba(255,255,255,0.5);
+		padding: 1% 1.5%;
+		width: 46%;
+		border-radius: 25px;
+		transition: all 0.3s ease-in;
+		&:hover{
+			background-color: white;
+		}
+	}
 	img{
 		display: block;
 		margin: auto;
