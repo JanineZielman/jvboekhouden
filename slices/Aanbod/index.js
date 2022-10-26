@@ -14,7 +14,7 @@ const Aanbod = ({ slice }) => {
                 <h2>{item.titel}</h2>
                 <span>{item.onder_titel}</span>
                  {item.link?.url &&
-                    <div className="read-more center">
+                    <div className="read-more">
                       <a href={`/${item.link?.uid}#${item.titel.split(' ')[0]}`}>
                         <div className='bg'></div>
                         {item.link_label}
