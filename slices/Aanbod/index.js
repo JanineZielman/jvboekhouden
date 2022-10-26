@@ -25,6 +25,12 @@ const Aanbod = ({ slice }) => {
             )
           })}
         </div>
+        <div className="read-more">
+          <a href={`/contact`}>
+            <div className='bg'></div>
+            Neem contact op!
+          </a>
+        </div>
       </div>
     </section>
   )
