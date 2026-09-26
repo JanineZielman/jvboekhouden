@@ -32,7 +32,7 @@ export default function Index() {
           </div>
 
           <section className="message" aria-labelledby="construction-heading">
-            <h1 id="construction-heading">Aan deze website wordt hard gewerkt!</h1>
+            <h1 id="construction-heading">Onze website is in aanbouw.</h1>
             <p>
               We werken aan een vernieuwde website. Binnenkort vindt u hier
               meer informatie over JV Boekhouding. Bedankt voor uw geduld!
@@ -43,7 +43,7 @@ export default function Index() {
         <footer>KvK-nummer: 82615136 &nbsp;|&nbsp; © JV Boekhouding</footer>
       </div>
 
-      <style jsx>{`
+      <style>{`
         .construction-page {
           --paper: #f6f1f1;
           --coral: #dd6d70;
@@ -57,8 +57,8 @@ export default function Index() {
           font-family: Arial, Helvetica, sans-serif;
         }
         .construction-page * { box-sizing: border-box; }
-        header { padding: 13px clamp(24px, 3vw, 42px); }
-        .mark {
+        .construction-page header { padding: 13px clamp(24px, 3vw, 42px); }
+        .construction-page .mark {
           width: 50px;
           height: 50px;
           border-radius: 50%;
@@ -70,7 +70,7 @@ export default function Index() {
           letter-spacing: -2px;
           line-height: 1;
         }
-        main {
+        .construction-page main {
           width: min(1110px, calc(100% - 48px));
           margin: auto;
           padding: 64px 0 90px;
@@ -79,8 +79,8 @@ export default function Index() {
           align-items: center;
           gap: clamp(60px, 8vw, 110px);
         }
-        .brand { width: 100%; }
-        .brand-main {
+        .construction-page .brand { width: 100%; }
+        .construction-page .brand-main {
           aspect-ratio: 435 / 350;
           display: flex;
           align-items: center;
@@ -92,7 +92,7 @@ export default function Index() {
           letter-spacing: -.11em;
           padding-right: .12em;
         }
-        .brand-sub {
+        .construction-page .brand-sub {
           margin-top: 12px;
           padding: 18px 10px;
           background: var(--coral);
@@ -101,14 +101,14 @@ export default function Index() {
           font-size: clamp(17px, 2vw, 27px);
           font-weight: 600;
         }
-        h1 {
+        .construction-page h1 {
           margin: 0 0 16px;
           font-size: clamp(39px, 4vw, 52px);
           font-weight: 400;
           line-height: 1.12;
           letter-spacing: -.025em;
         }
-        p {
+        .construction-page p {
           max-width: 560px;
           margin: 0;
           padding-top: 15px;
@@ -116,20 +116,20 @@ export default function Index() {
           font-size: clamp(18px, 1.7vw, 21px);
           line-height: 1.42;
         }
-        footer { padding: 22px clamp(24px, 3vw, 42px); font-size: 14px; }
+        .construction-page footer { padding: 22px clamp(24px, 3vw, 42px); font-size: 14px; }
         @media (max-width: 760px) {
-          main {
+          .construction-page main {
             width: min(520px, calc(100% - 48px));
             grid-template-columns: 1fr;
             gap: 48px;
             padding: 54px 0 72px;
           }
-          .brand { max-width: 350px; }
-          .brand-main { font-size: clamp(130px, 39vw, 205px); }
-          h1 { font-size: clamp(38px, 9vw, 50px); }
+          .construction-page .brand { max-width: 350px; }
+          .construction-page .brand-main { font-size: clamp(130px, 39vw, 205px); }
+          .construction-page h1 { font-size: clamp(38px, 9vw, 50px); }
         }
       `}</style>
-      <style jsx global>{`
+      <style>{`
         html, body, #__next { min-height: 100%; margin: 0; }
       `}</style>
     </>
