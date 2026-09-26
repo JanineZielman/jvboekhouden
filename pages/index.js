@@ -32,7 +32,7 @@ export default function Index() {
           </div>
 
           <section className="message" aria-labelledby="construction-heading">
-            <h1 id="construction-heading">Onze website is in aanbouw.</h1>
+            <h1 id="construction-heading">Aan deze website wordt hard gewerkt!</h1>
             <p>
               We werken aan een vernieuwde website. Binnenkort vindt u hier
               meer informatie over JV Boekhouding. Bedankt voor uw geduld!
