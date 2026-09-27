@@ -1,65 +1,7 @@
-# Prismic + Next.js Multi-Page Starter
+# JV Boekhouding — standalone static site
 
-Want to see an example of a multi-page website using [Prismic][prismic] and [Next.js][nextjs]? Look no further! This project provides all the code you need for a personal website with a homepage, information pages, and navigation.
+Upload `index.html`, `style.css`, and both SVG files together to your website's document root (for example, `httpdocs/`). No Next.js, Prismic, npm, build step, database, or JavaScript is required. Opening `index.html` locally also works.
 
-- **Demo**: [Open live demo][live-demo]
-- **Learn more about Prismic and Next.js**: [Prismic Next.js Documentation][prismic-docs]
+Edit the text, email links, and service list directly in `index.html`. The colors and layout live in `style.css`. The footer year is literal HTML (`2026`), so update it in a later year if desired. The Adobe Typekit stylesheet is the only external styling dependency; the page falls back to Arial if it cannot load.
 
-&nbsp;
-
-<img src="https://user-images.githubusercontent.com/8601064/166617932-eaaa1643-f086-4909-9868-56234f8da98d.png" alt="Screenshots of the site seen on deskop and mobile browsers" />
-
-&nbsp;
-
-## 🚀 Quick Start
-
-To start a new project using this starter, run the following commands in your terminal:
-
-```sh
-npx degit prismicio-community/nextjs-starter-prismic-multi-page your-project-name
-cd your-project-name
-npx @slicemachine/init
-```
-
-The commands will do the following:
-
-1. Start a new Next.js project using this starter.
-2. Ask you to log in to Prismic or [create an account][prismic-sign-up].
-3. Create a new Prismic content repository with sample content.
-
-When you're ready to start your project, run the following command:
-
-```sh
-npm run dev
-```
-
-## Documentation
-
-To learn how to work with your new project, [**see this starter's docs**][starter-docs].
-
-To learn more about working with Prismic, [**see the Prismic docs**][prismic-docs].
-
-## License
-
-```
-Copyright 2013-2022 Prismic <contact@prismic.io> (https://prismic.io)
-
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
-```
-
-[prismic]: https://prismic.io/
-[prismic-docs]: https://prismic.io/docs/technologies/nextjs
-[prismic-sign-up]: https://prismic.io/dashboard/signup
-[nextjs]: https://nextjs.org/
-[starter-docs]: ./docs/README.md
-[live-demo]: https://nextjs-starter-prismic-multi-page.vercel.app/
+If your hosting still serves an old Next.js app, point the domain's document root at this folder or replace the old deployment with these files. Back up existing server files before removing them.
